@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(243, 153, 153, 0.541),rgba(0, 0, 0, 0.7)),url(images/background-1.jpg);
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: white;
+        }
+        .content p{
+            font-size: 30px;
+            align-items: center;
+            text-transform:uppercase;
+        }
+        .content h1{
+
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                height: 350px;
+                /* border: 2px solid rgba(243, 10, 10, 0.616); */
+                margin: 100px auto;
+                font-size: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+                position: relative;
+                &:hover{
+                    &::before{
+                        width: 100%;
+                        left: 0;
+                        opacity: 1;
+                    }
+                    &::after{
+                        width: 100%;
+                        left: 0;
+                        opacity: 1;
+                    }
+                }
+                &::before{
+                    content: '' ;
+                    display: flex;
+                    width: 2px;
+                    height: 10px;
+                    background-color: rgba(247, 247, 248, 0.329);
+                    position: absolute;
+                    top:0;
+                    left: 50%;
+                    transition: 1s;
+                    opacity: 0;
+
+                }
+                &::after{
+                    content: '';
+                    display: flex;
+                    width: 2px;
+                    height: 10px;
+                    background-color: rgba(247, 247, 248, 0.329);
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transition: 1s;
+                    opacity: 0;
+
+                }
+        }
+        .content h2{
+            font-size: 70px;
+            margin: 20px 0;
+            text-transform:capitalize;
+
+        }
+        button{
+            width: 350px;
+            padding: 30px 0;
+            text-align: center;
+            margin: 50px 20px;
+            border-radius: 25px;
+            bottom: 10px;
+            font-size: 35px;
+            font-weight: bold;
+            border: 2px solid rgba(247, 247, 248, 0.329);
+            background: transparent;
+            color: white;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        span{
+            background: rgb(247, 138, 138);
+            height: 0;
+            width: 100%;
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition:0.5s;
+        }
+        button:hover span{
+            height: 100%;
+        }
+        button:hover{
+            border: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <div class="content">
+            <h1>Watch Now</h1>
+            <h2><mark >UnderWorld-Part 1</mark></h2>
+            <br>
+            <p>Under cover of night, vampires engage in an age-old<br>battle with their sworn enemies, 
+            the Lycans, a clan of violent werewolves. Selene (Kate<br> Beckinsale), a vampire 
+            orphaned in the wake of a bloody Lycan attack, works for<br> the vampire clan as a trained killer. 
+            When the Lycans take a mysterious interest in Michael Corvin<br> (Scott Speedman), an exceptional mortal doctor, Selene struggles 
+            to save him from Lucian<br>(Michael Sheen), a ruthless Lycan leader<br> hellbent on ending the vampire bloodline.</p>
+            <br>
+             <div>
+                <button type="button"><span></span>Download</button>
+                <button type="button"><span></span>Play The trailer</button>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

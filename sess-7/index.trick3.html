@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .pic{
+            width: 200px;
+            height: 300px;
+            margin: 100px auto;
+            position: relative;
+            overflow: hidden;
+            /* border: 1px solid black; */
+            &:hover{
+                >img{
+                    right: -26%;
+                }
+                >figcaption{
+                    opacity: 1;
+                    bottom: 125px;
+                }
+                }
+
+                >*{
+                position: absolute;
+                width: 100%;
+                /* bottom: 0; */
+                right: 0;
+                transition: 1s;
+                }
+                
+                >img{
+                   width: 130%;
+                   height: 100%;
+                   object-fit: cover;
+                   transition: 1s;
+                   position: absolute; 
+                   bottom: 0;right: 0;
+                }
+                >figcaption{
+                    bottom: 0;left: 0;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: rgba(255, 255, 255, 0.295);
+                    font-size: 30px;
+                    text-align: center;
+                    opacity: 0;
+                    transition: 1s;
+                    color: white;
+                } 
+        }  
+        .btn{
+                width: 150px;
+                height:50px;
+                margin: -90px auto;
+                border: 1px solid black;
+                position: relative;
+                border-radius: 3px;
+                &:hover{
+                    >a{
+                        color: white;
+                    }
+                    &::before,
+                    &::after{
+                        height: 50%;
+                    }
+                }
+                >a{
+                    /* background-color: rgb(12, 12, 12); */
+                    position: absolute;
+                    top: 0;left: 0;
+                    width: 100%;
+                    height: 100%;
+                    color: rgb(12, 12, 12);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 15px;
+                    text-transform: capitalize;
+                    z-index: 9999;
+                }
+                &::before{
+                    content:'';
+                    display: flex;
+                    width: 100%;
+                    height: 0;
+                    transition: 1s;
+                    position: absolute;
+                    top: 0;left: 0;
+                    background-color: rgb(12, 12, 12);
+                }
+                &::after{
+                    content:'';
+                    display: flex;
+                    width: 100%;
+                    height: 0;
+                    transition: 1s;
+                    position: absolute;
+                    bottom: 0;left: 0;
+                    background-color: rgb(12, 12, 12);
+                    
+                }
+
+            }
+    </style>
+</head>
+<body>
+    <figure class="pic">
+        <img src="img/part-1.jpg" alt="">
+        <figcaption>part-1</figcaption>
+    </figure>
+    <div class="btn">
+        <a href="">Downkoad me</a>
+    </div>
+
+    <figure class="pic">
+        <img src="img/part-2.jpg" alt="">
+        <figcaption>part-2</figcaption>
+    </figure>
+    <div class="btn">
+        <a href="">Downkoad me</a>
+    </div>
+
+    <figure class="pic">
+        <img src="img/part-3.jpeg" alt="">
+        <figcaption>part-3</figcaption>
+    </figure>
+    <div class="btn">
+        <a href="">Downkoad me</a>
+    </div>
+
+    
+    
+</body>
+</html>

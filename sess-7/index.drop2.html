@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            direction: ltr;
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu{
+            width: 80%;
+            height: 100px;
+            background-color: rgb(20, 20, 20);
+            margin: 100px auto;
+            display: flex;
+            >*{
+                height: 100%;
+                /* border: 1px solid white; */
+            }
+            >figure{
+                width: 20%;
+                display: flex;
+                align-items: center;
+                padding-left: 15px;
+                >img{
+                    height: 30%;
+                }
+            }
+            >ul{
+                width: 80%;
+                display: flex;
+                justify-content: right;
+                >li{
+                    position: relative;
+                    &:hover{
+                        >ul{
+                            /* display: block; */
+                            /* opacity: 1;
+                            visibility: visible; */
+                            /* height: 250px; */
+                            left: 0;
+                        }
+                    }
+                    /* border: 2px solid red; */
+                    >a{
+                        /* background-color: yellow; */
+                        display: flex;
+                        height: 100%;
+                        align-items: center;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                        padding-inline: 15px;
+                        color: white;
+                        /* transition: .4s; */
+                        transition: 1.5s;
+                        &:hover{
+                            background-color: rgb(156, 154, 154);
+                            color: rgb(42, 43, 43);
+
+                        }
+                    }
+                    /* subMenu */
+                    >ul{
+                        width: 220px;
+                        background-color: rgb(61, 61, 61);
+                        position:absolute;
+                        /* left: 0; */
+                        left: -1500px;
+                        top: 100px;
+                        /* display: none; */
+                        /* opacity: 0;
+                        visibility: hidden; */
+                        /* height: 0;
+                        overflow: hidden; */
+                        transition: 1s;
+                        >li{
+                            height: 50px;
+                            font-size: 18px;
+                            border: 1px solid rgb(42, 43, 43);
+                            >a{
+                                color: white;
+                                /* background-color: red; */
+                                display: flex;
+                                width: 100%;
+                                height: 100%;
+                                align-items: center;
+                                padding-left: 10px;
+                                &:hover{
+                                    background-color:rgb(20, 20, 20) ;
+                                }
+                            }
+                        }
+                    }
+                }
+            }   
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <figure>
+            <img src="img/notrecinema2025.gif" alt="">
+        </figure>
+        <ul>
+            <li><a href="">home</a>
+                <ul>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">Lorem ipsum dolor sit.</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="">about</a>
+                <ul>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">Lorem ipsum dolor sit.</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                </ul>
+            </li>
+            <li><a href="">galery All-Two</a>
+                <ul>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">Lorem ipsum dolor sit.</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                </ul>
+            </li>
+            <li><a href="">news</a>
+                <ul>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">Lorem ipsum dolor sit.</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                </ul>
+            </li>
+            <li><a href="">contact</a>
+                <ul>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">Lorem ipsum dolor sit.</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                    <li><a href="">subMenu</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    
+</body>
+</html>
