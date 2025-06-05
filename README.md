@@ -1,4 +1,4 @@
-# 💻Front End Project 7 created On may 30 2025 with HTML and CSS
+# 💻Front End Project 7 
 .
 ![Online-TV](https://github.com/user-attachments/assets/5dbb0377-a09f-4a83-99ea-457e6fb2877d)
 .
