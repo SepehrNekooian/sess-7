@@ -1,7 +1,4 @@
 # 💻Front End Project 7 
-
-![Online-TV (3)](https://github.com/user-attachments/assets/bab8b4d3-e207-4e3b-ad31-18baeb586b7d)
-
 https://github.com/user-attachments/assets/fa944146-798d-46aa-90a8-b2b7f5ec2b38
 
 👨‍💻 Developed By: Sepehr Nekooian
