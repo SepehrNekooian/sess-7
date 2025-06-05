@@ -7,7 +7,7 @@
 
 📅 Created On: Jun 5, 2025
 
-🔧 Master: parsa ghorbanian 
+🔧 Master: 
 
    Technologies Used: HTML/CSS
    
