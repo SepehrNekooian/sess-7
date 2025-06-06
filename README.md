@@ -1,4 +1,4 @@
-# 💻Front End Project 7 
+# Project-7
 https://github.com/user-attachments/assets/fa944146-798d-46aa-90a8-b2b7f5ec2b38
 
 <br>
@@ -12,17 +12,10 @@ https://github.com/user-attachments/assets/cbde04d4-7088-43fa-b501-65119cbc88da
 
 🔧 Master: 
 
-   Technologies Used: HTML/CSS
-   
-🔗 Online Demo:
-👉 
+💻Technologies Used: HTML/CSS 
 
 📬 How to Reach Me:
 
-Instagram: https://lnkd.in/e2Rp29dU 
-
 LinkedIn: www.linkedin.com/in/snekoian
-
-GitHub : https://lnkd.in/ey4WgTRx
 
 Email : Snekoian@gmail.com
