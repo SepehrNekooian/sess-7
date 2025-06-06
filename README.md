@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/cbde04d4-7088-43fa-b501-65119cbc88da
 
 📅 Created On: Jun 5, 2025
 
-💫Master: parsa ghorbanian 
+   Master: parsa ghorbanian  
 
 💻Technologies Used: HTML/CSS 
 
