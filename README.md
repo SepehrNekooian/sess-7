@@ -17,3 +17,5 @@ https://github.com/user-attachments/assets/cbde04d4-7088-43fa-b501-65119cbc88da
 LinkedIn: www.linkedin.com/in/snekoian
 
 Email : Snekoian@gmail.com
+
+Instagram : https://www.instagram.com/sepfront_end?igsh=MWJqcmllanMxeTd4NA==
